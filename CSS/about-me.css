@@ -58,3 +58,25 @@ hr{
 blockquote{
     color:rgb(250,190,80)
 }
+
+table, td, th{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(40,80,50);
+    color: rgb(200,275,180)
+}
+
+.green1{
+    background-color: rgb(140,240,80);
+}
+
+.green2{
+    background-color: rgb(180,275,160);
+}
+
+.green3{
+    background-color: rgb(110,200,130);
+}
