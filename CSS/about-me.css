@@ -59,24 +59,24 @@ blockquote{
     color:rgb(250,190,80)
 }
 
-table, td, th{
-    border: 1px solid black;
-    text-align: center;
-    border-collapse: collapse;
-}
-th{
-    background-color: rgb(40,80,50);
-    color: rgb(200,275,180)
-}
+    table, td, th{
+        border: 1px solid black;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    th{
+        background-color: rgb(200,100,20);
+        color: rgb(275,270,200)
+    }
 
-.green1{
-    background-color: rgb(140,240,80);
-}
+    .green1{
+        background-color: rgb(250,210,100);
+    }
 
-.green2{
-    background-color: rgb(180,275,160);
-}
+    .green2{
+        background-color: rgb(260,230,150);;
+    }
 
-.green3{
-    background-color: rgb(110,200,130);
-}
+    .green3{
+        background-color: rgb(276,200,70);
+    }
