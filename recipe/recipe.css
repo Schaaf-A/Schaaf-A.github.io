@@ -26,6 +26,11 @@ a{
     color:
 }
 
+footer{
+    float: left;
+    text-align: right;
+}
+
 .comment{
     
 }
