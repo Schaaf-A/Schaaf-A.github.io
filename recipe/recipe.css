@@ -1,14 +1,55 @@
+body{
+    background-color: white;
+    color: rgb(64,64,64);
+    font: garamond;
+        
+}
 h1,h2,h3,h4,h5,h6{
     color: #A4A400;
     background-color:#F0F0F0;
     text-decoration:underline;
+    font: arial;
+    letter-spacing: 0.25em;
 }
 
 h1{
-    text-align=center;
+    text-align:center;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+h2{
+    font-size: 18pt;
+    
+}
+
+a{
+    color:#A4A400;
+}
+
+ul{
+    list-style-image:url(https://www.rose-hulman.edu/class/csse/csse290-WebProgramming/images/pie_bullet.png)
+}
+
+footer{
+    float: left;
+    text-align: right;
+}
+
+#all {
+    float: left;
+    margin-right:10%;
+    margin-left:10%;
 }
 
 .comment{
-    
+    background-color: #FFFFA8;
 }
+
+.tooltip{
+    position: relative;
+    border-bottom: 1px dashed #000;
+}
+
+
 
