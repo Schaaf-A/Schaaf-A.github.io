@@ -1,14 +1,29 @@
+body{
+    background-color: rgb(60,64,60);
+    color:rgb(120,150,110)}
+
 table{
     float:left;
     margin-left: 100px;
-    margin-right: 100px}
+    margin-right: 100px;
+    color:rgb(140,170,130)}
 
-th,td{
-    ;}
+th{
+    font-size:20pt;}
+a{
+    color:rgb(140,170,160)}
 
 img,video,audio{
     max-width: 400px;
     padding:25px;}
+
+.img{ background-color:rgb(70,74,70);}
+
+.vid{}
+
+.aud{ 
+    background-color:rgb(70,74,70);
+    color:rgb(100,104,100}
 
 #sources{
     margin: left 100px;}
