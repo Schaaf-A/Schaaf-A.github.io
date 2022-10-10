@@ -14,7 +14,8 @@ table{
     margin-left: 90px;
     margin-right: 90px;
     border-spacing: 10px;
-    color: rgb(80,80,80);}
+    color: rgb(80,80,80);
+    background-opacity: 0.8;}
 
 table p{
     padding: 10px;
