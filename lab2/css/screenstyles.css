@@ -1,8 +1,9 @@
-/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+/* Style sheet created by: Anastasia Schaaf 10/19/22  10/20/22 */
+/*pg 305 in workbook*/
 
 /* Style for body specifies a background color */
 body {
-	background-color: #E0F0FF;
+	background: linear-gradient(#FFFFFF, #3366cc);
 }
 
 /* Styles for Mobile Layout */
@@ -51,7 +52,82 @@ nav li a{
 		margin: 0.3em;
 		padding: 0.4em;
 		font-size: 16px
+		
 	}
+	
+	.desktop {display:none;}
+
+}
+
+/*mini css file for tablet changes*/
+@media screen and (min-width: 481px) {
+	img{
+		width: 80%;
+	}
+
+	nav li{
+		display: inline;
+		float: left;
+		margin-left: 1%;
+		margin-right: 1%;
+		padding-right: 0;
+		padding-left: 0;
+		width: 18%;
+	}
+
+	main{clear: left;}
+
+	.mobile {display: none;}
+
+	.desktop{display:inline;}
+}
+
+
+/*mini css file for desktop changes*/
+@media screen and (min-width: 769px) {
+	#container{
+		width: 80%;
+	}
+	
+	img{
+		width: 60%;
+	}
+
+	nav ul{
+		margin: 0;
+		padding-left: 0.50%;
+		padding-right: 0.50%;
+	}
+
+	nav li{
+		border-radius: 0;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		width: 20%;
+		white-space: nowrap;
+	}
+	
+	nav li a{
+		display:inline block;
+		padding: 0.7em;
+		font-size: 1.25em;
+	}
+
+	main{
+		border: none;
+		border-radius: 1em;
+		box-shadow: 1em 1em 1em #331400;
+		margin-top:1em;
+	}
+}
+
+
+nav li a:link{ color:#FFFFFF;}
+
+nav li:hover{
+	color:#ccffcc; 
+	font-size:1.5em}
 
 }
 
