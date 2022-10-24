@@ -1,0 +1,44 @@
+/*Anastasia Schaaf 10/24/22*/
+
+body{
+    color: #000;
+    background-color: #b8d1eb;
+    font-family: "times new roman", serif;
+}
+
+footer{
+    font-size: 0.75em;
+    text-align: center;
+}
+
+img{
+    float: left;
+    margin-right: 3%;
+}
+ul{
+    list-style-type: none;
+}
+
+.floatleft{
+    float:left;
+    margin: 3%;
+}
+
+.floatright{
+    float:right;
+    margin:3%;
+}
+
+#outerwrapper{
+    width:70%;
+    margin: 0 auto 0 auto;
+}
+
+#main{
+    background-color: #c5a98b;
+    padding: 10px;
+    clear: both;
+}
+#main, footer{
+    clear:both;
+}
