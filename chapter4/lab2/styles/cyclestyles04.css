@@ -1,0 +1,30 @@
+/*Anastasia Schaaf 10/25/22*/
+
+body{
+    color: #000;
+    font-family: 'calibri', sans-serif;
+    background-color:#ff9900;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+#wrapper{
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.floatleft{
+    float: left;
+    margin-right:2%;
+}
+
+.floatright{
+    float: right;
+    margin-left:2%;
+}
+
+.boldtext{font-weight: bold;}
+
+.boldtext dt{font-weight: bold;}
