@@ -5,7 +5,8 @@
     padding-left:20px;
     padding-right:20px;
     padding-bottom: 20px;
-    margin: auto;
+    
+
 }
 
 .text{
@@ -16,16 +17,28 @@
     border-color: #dcdfe4;
 }
 
+label{
+    font-weight: 500;
+}
+
+#why{
+    float:right
+}
+
 .name{
     width:43%;
     margin: 4px;
     padding:5px;
     border-radius: 5px;
+    border-color: #dcdfe4;
 }
 
 .bday{
-    padding: 5px;
+    padding: 2px;
     border-radius: 5px;
+    width: 70px;
+    border-color: #c7cacf;
+    border-width: 1.5px
 }
 
 .small{
