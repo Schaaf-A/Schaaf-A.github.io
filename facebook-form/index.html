@@ -24,10 +24,10 @@
             <br>
 
             <input type="text" placeholder="New Password" class="text" required/>
-            <br>
+            <br> 
 
-            <label for="birthday">Birthday</label> <br>
-            <select name="month" id="month">
+            <label>Birthday</label> <br>
+            <select name="month" id="month" class="bday">
                 <option selected value=''>Month</option>
                 <option value='1'>January</option>
                 <option value='2'>February</option>
@@ -42,7 +42,7 @@
                 <option value='11'>November</option>
                 <option value='12'>December</option>
             </select>
-            <select name="Day" id="day">
+            <select name="Day" id="day" class="bday">
                 <option selected value="">Day</option>
                 <option value="01">01</option>
                 <option value="02">02</option>
@@ -76,7 +76,7 @@
                 <option value="30">30</option>
                 <option value="31">31</option>
             </select>
-            <select name="Year" id="year">
+            <select name="Year" id="year" class="bday">
                 <option selected value="">Year</option>
                 <option value="2022">2022</option>
                 <option value="2021">2021</option>
@@ -202,15 +202,15 @@
                 <option value="1901">1901</option>
                 <option value="1900">1900</option>
             </select>
-            <a href="#">Why do I need to provide my birthday?</a>
+            <a href="#" class="small">Why do I need to provide my birthday?</a>
             <br>
             
             <input type="radio" name="gender" value="female">Female
             <input type="radio" name="gender" value="male">Male
             <br>
-            <p>By clicking Sign Up, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Use Policy</a>, including our <a href="#">Cookie Use</a>.</p>
+            <p class="small">By clicking Sign Up, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Use Policy</a>, including our <a href="#">Cookie Use</a>.</p>
             <br>
-            <input type="submit" value="submit" id="sbutton"/>
+            <input type="submit" value="Sign Up" id="sbutton"/>
         </form>
     </div>
 </body>
