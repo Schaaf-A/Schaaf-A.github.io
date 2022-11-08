@@ -1,0 +1,32 @@
+a:link{ /*link that hasn't been visited*/
+    color: green;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: none;
+    background-color: gray;
+}
+
+a:visited{ color: black;}
+a:active{color: red;}
+/*change highlight color*/
+a::selection{background: pink;}
+a::-moz-selection{background:pink}
+
+input{
+    padding: 6px 12px 6px 12px;
+    border: solid purple;
+    border-radius: 15px;
+    color: blue;
+}
+
+input[type=text] {color: purple;}
+input[type=text]:focus {color: blueviolet; border:5px solid pink;}
+input[type=submit]:hover {background: yellow;}
+input[type=submit]:active {background: brown;}
+
+img {border: 3px solid transparent} /*prevents images from moving when you hover over them*/
+img:hover{border:3px solid red;}
