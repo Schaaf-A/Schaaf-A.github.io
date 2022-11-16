@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog65h</title>
+</head>
+<body>
+    <label for="pnds">Pounds:</label> <br>
+    <input type="number" name="pnds" id="pnds">
+    <br>
+    <label for="shl">Shillings:</label> <br>
+    <input type="number" name="shl" id="shl">
+    <br>
+    <label for="pnc">Pence:</label> <br>
+    <input type="number" name="pnc" id="pnc">
+    <br><br>
+    <button onclick="
+        var pnds = document.getElementById('pnds').value;
+        pnds=Number(pnds);
+        var shl = document.getElementById('shl').value;
+        shl=Number(shl);
+        var pnc = document.getElementById('pnc').value;
+        pnc=Number(pnc);
+        var decp = pnds + shl/20 + pnc/12/20;
+        decp = decp.toFixed(2); //rounds to 2 decimal places
+        alert('Decimal Pounds = £' + decp); //alert isnt working AGAIN
+    ">Convert to Decimal Pounds</button>
+</body>
+</html>
