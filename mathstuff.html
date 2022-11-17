@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!---->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Stuff</title>
+    <script src=mathstuff.js></script>
+</head>
+<style>
+    #math{
+        background-color: green; 
+        color: white;
+        border-radius: 7px;
+        margin: 15px 10px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    #reset{
+        background-color: red; 
+        color: white;
+        border-radius: 7px;
+        margin: 5px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    input{
+        border-radius:5px;
+        padding: 5px;
+        margin: 10px;
+    }
+</style>
+
+<body>
+    <div id="input">
+        <input type="number" id="num1"><br>
+        <input type="number" id="num2"><br>
+        <button id="math" onclick="doMath();">Run Math Stuff</button>
+        <button id="reset" onclick="reset();">Reset</button>
+    </div>
+
+    <br> <br>
+    <p id="output"></p> <!---->
+
+    <script>
+        function reset(){
+            document.getElementById("output").InnerHTML = ""; //take the output and set it to nothing
+        }
+    </script>
+</body>
+</html>
