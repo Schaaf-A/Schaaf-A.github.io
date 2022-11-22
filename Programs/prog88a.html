@@ -20,11 +20,12 @@
             var num2 = document.getElementById("num2").value;
             num1 = Number(num1);
             num2 = Number(num2);
+            var p = document.getElementById("out");
 
             var sum = num1 + num2;
             var diff = num1 - num2;
             var prod = num1 * num2;
-            var avg = sum / 2;
+            var avg = (num1 + num2)/ 2;
             var abs = math.abs(diff);
             var max = 0;
             var min = 0;
@@ -36,10 +37,8 @@
             if (num1 < num2){
                 max = num2;
                 min = num1;}
+            //if (some condition -- true) {run some code here}
 
-                //if (come condition -- true) {run some code here}
-
-            var p = document.getElementById("out");
             p.innerHTML = "Sum:" + sum + "<br>";
 
             p.innerHTML = p.innerhtml + "Max:" + max + "<br>";

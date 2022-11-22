@@ -19,6 +19,7 @@
     <br>
     <p id="output"></p>
     <script>
+        var out = document.getElementById("output");
         function domath() {
         var A = document.getElementById("A").value;
         A = Number("A");
@@ -28,9 +29,8 @@
         C = Number("C");
 
         var xa = (-B + math.sqrt(B**2 - 4*A*C)) / 2*A;
-        var xa = (-B - math.sqrt(B**2 - 4*A*C)) / 2*A ;
+        var xa = (-B - math.sqrt(B**2 - 4*A*C)) / 2*A;
 
-        var out = document.getElementById("output");
         out.innerHTML = xa + "      " + xb;
         }
     </script>
