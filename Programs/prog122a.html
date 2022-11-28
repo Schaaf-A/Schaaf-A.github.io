@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog122a</title>
+</head>
+<body>
+    <p id="out"></p>
+
+    <script>
+        var msg = "Number     Square     Square Root<br/>";
+        var lcv = 1; //Loop Control Variable
+        while (lcv<= 50){ //lcv < 51
+            msg += lcv + "     " + (lcv**2) + "     " + Math.sqrt(lcv) + "<br/>";
+            lcv++; //lcv += 1      lcv = lcv + 1
+        }
+        document.getElementById("out").innerHTML = msg;
+    </script>
+</body>
+</html>

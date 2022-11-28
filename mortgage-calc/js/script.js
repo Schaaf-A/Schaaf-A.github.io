@@ -6,5 +6,5 @@ function domath() {
     var n = Number(12);
     var B = (P*Math.pow(1 + (r/n), n*t)) - ((m*((Math.pow(1 + (r/n), n*t))-1))/(r/n));
     var p = document.getElementById("out");
-    p.innerHTML = "Remaining Loan Balance: " B;
+    p.innerHTML = "Remaining Loan Balance: " + B;
 }
