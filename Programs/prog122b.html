@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog122b</title>
+</head>
+<body>
+    <h3>Hours &emsp; Pay</h3>
+    <p id="out"></p>
+
+    <script>
+    var p = "Hour &emsp; Pay <br/>";
+    var lcv = 1;
+        while (lcv<=40){
+            p += lcv + "&emsp;" + (lcv*4) + "<br/>";
+            lcv++;
+        }
+        document.getElementById("out") = p;
+    </script>
+</body>
+</html>
