@@ -7,17 +7,25 @@
     <title>Prog122b</title>
 </head>
 <body>
-    <h3>Hours &emsp; Pay</h3>
     <p id="out"></p>
 
-    <script>
-    var p = "Hour &emsp; Pay <br/>";
+    <!--<script>
+    var p = "Hour     Pay <br/>";
     var lcv = 1;
         while (lcv<=40){
-            p += lcv + "&emsp;" + (lcv*4) + "<br/>";
+            p += lcv + "     " + (lcv*4) + "<br/>";
             lcv++;
         }
-        document.getElementById("out") = p;
+        document.getElementById("out").innerHTMl = p;
+    </script>-->
+    <script>
+        var msg = "Hour     Pay<br/>";
+        var lcv = 1; //Loop Control Variable
+        while (lcv <= 40){ //lcv < 51
+            msg += lcv + "\t" + (lcv*4) + "     <br/>";
+            lcv++; //lcv += 1      lcv = lcv + 1
+        }
+        document.getElementById("out").innerHTML = msg;
     </script>
 </body>
 </html>
