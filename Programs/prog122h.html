@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="out"></p>
+
+    <script>
+        var msg = "Number &emsp; Square &emsp; Square Root &emsp; Cube  &emsp; 4th Root<br/>";
+        var lcv = 1; //loop control variable
+        while (lcv <= 20) {
+            var square = lcv**2;
+            var sqrt = Math.sqrt(lcv);
+            var cube = lcv**3;
+            var frthrt = lcv**(1.0/4.0); //nth root is num**(1.0/n)
+            msg += lcv + "&emsp; &emsp; &emsp;" + square + "&emsp; &emsp; &emsp;" + sqrt.toFixed(4) + 
+            "&emsp; &emsp; &emsp; &emsp;" + cube + "&emsp; &emsp; &emsp;" + frthrt.toFixed(4) + "<br/>";
+            lcv++;
+        }
+        document.getElementById("out").innerHTML = msg;
+    </script>
+</body>
+</html>
