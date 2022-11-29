@@ -19,10 +19,10 @@
         document.getElementById("out").innerHTMl = p;
     </script>-->
     <script>
-        var msg = "Hour     Pay<br/>";
+        var msg = "<b>Hour &emsp;&emsp;Pay</b><br/>";
         var lcv = 1; //Loop Control Variable
         while (lcv <= 40){ //lcv < 51
-            msg += lcv + "\t" + (lcv*4) + "     <br/>";
+            msg += lcv + " &emsp; &emsp; &emsp; " + (lcv*4) + "     <br/>";
             lcv++; //lcv += 1      lcv = lcv + 1
         }
         document.getElementById("out").innerHTML = msg;

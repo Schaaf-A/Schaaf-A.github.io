@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog122d</title>
+</head>
+<body>
+    <p id="out"></p>
+
+    <script>
+        var msg = "x  &emsp; &emsp; &emsp; &emsp;  y <br/>";
+        var lcv = -12;
+        while (lcv <= 16){
+            var y = (lcv**6) - ((3*lcv)**5) - ((93*lcv)**4) + ((87*lcv)**3) + ((1596*lcv)**2) - (1380*lcv) - 2800;
+            msg += lcv + "&emsp; &emsp; &emsp; &emsp;" + y;
+            lcv++;
+        }
+        document.getElementById("out").innerhtml = msg;
+    </script>
+</body>
+</html>
