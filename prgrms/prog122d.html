@@ -1,3 +1,4 @@
+<!--prgrms/prog122d.html-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,11 +11,11 @@
     <p id="out"></p>
 
     <script>
-        var msg = "x  &emsp; &emsp; &emsp; &emsp;  y <br/>";
+        var msg = "x  &emsp; &emsp; &emsp; &emsp; y <br/>";
         var lcv = -12;
         while (lcv <= 16){
             var y = (lcv**6) - ((3*lcv)**5) - ((93*lcv)**4) + ((87*lcv)**3) + ((1596*lcv)**2) - (1380*lcv) - 2800;
-            msg += lcv + "&emsp; &emsp; &emsp; &emsp;" + y;
+            msg += lcv + "&emsp; &emsp; &emsp; &emsp;" + y + "<br/>";
             lcv++;
         }
         document.getElementById("out").innerhtml = msg;
