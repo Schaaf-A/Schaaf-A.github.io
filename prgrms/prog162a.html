@@ -8,13 +8,22 @@
 </head>
 <body>
     <input type="number" id="num">
-
-    <button onclick="domath()"></button>
+    <br>
+    <button onclick="domath()">Calculate Factorial</button>
 
     <p id="out"></p>
 
     <script>
-
+        function domath(){
+            var num = Number(document.getElementById("num"));
+            var prod = 1;
+            
+            for (lcv=2; lcv<=num; lcv++){
+                prod += lcv*prod;
+            }
+            var p = document.getElementById("out");
+            p.innerHTML = prod;
+        }
     </script>
 </body>
 </html>
