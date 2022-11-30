@@ -32,9 +32,13 @@ button{
     width: 60%;
     margin-right: 20%;
     margin-left:20%;
-    padding-left: 30%;
-    padding-right:30%;
-    content-width
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+#incontent{
+    text-align:left
 }
 
 #output{
