@@ -23,13 +23,14 @@
         </div>
 
         <div id="buttons">
-            <button onclick="domath()"> Calculate</button>
-            <button onclick="reset()">Reset</button>
+            <button onclick="domath()" id="math"> Calculate</button>
+            <button onclick="reset()" id="rst">Reset</button>
         </div>
     </div>
 
     <div id="output"> 
-        <p id="out"></p>
+        <label for="out" id="rlb">Remaining Loan Balance:</label>
+        <div id="p"><p id="out"></p></div>
     </div>
     <script src="js/script.js"></script>
 </body>
