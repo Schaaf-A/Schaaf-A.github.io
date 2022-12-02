@@ -23,6 +23,7 @@ button{
     margin:10px;
     border-radius: 10px;
     box-shadow: 0px 2px 2px 2px #000;
+    border-color:#665747;
 }
 
 #buttons{
@@ -85,12 +86,10 @@ button{
 #p{
     background-color: #735f52;
     padding: 2px;
-    margin: 5px 20px;
-    margin-left: 60px;
     border-radius: 7px;
     border-color: #251f1b;
     width: 155px;
-    margin-left: 85px;
+    margin-left: 105px;
     height: 18px;
     border-style: solid;
     border-width: 2px;

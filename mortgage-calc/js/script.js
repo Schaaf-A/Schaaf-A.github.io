@@ -10,5 +10,9 @@ function domath() {
 }
 function reset(){
     var p = document.getElementById("out");
-    p.innerHTML = " "; 
+    p.innerHTML = " ";
+    document.getElementById("princ").value = " ";
+    var r = document.getElementById("ir").value = " ";
+    var t = document.getElementById("ny").value = " ";
+    var m = document.getElementById("mp").value = " ";
 }
