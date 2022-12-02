@@ -15,15 +15,15 @@
 
     <script>
         function domath(){
-            var num = Number(document.getElementById("num"));
+            var num = Number(document.getElementById("num").value);
             var prod = 1;
-            
-            for (lcv=2; lcv<=num; lcv++){
-                prod += lcv*prod;
+            for (lcv=1; lcv <= num; lcv += 1){
+                prod *= lcv;
             }
             var p = document.getElementById("out");
             p.innerHTML = prod;
         }
     </script>
+
 </body>
 </html>
