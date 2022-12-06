@@ -7,9 +7,33 @@
     <title>Prog93a</title>
 </head>
 <body>
-    
+    <label for="kw">Kilowatts Used</label>
+    <input type="number" id="kw" name="kw" placeholder="0">
+    <br>
+    <button onclick="print()">Print</button>
+    <br><br>
+    <p id="out"></p>
     <script>
+        function print(){
+            var kw = Number(document.getElementById("kw").value);
+            var out = document.getElementById("out").innerHTML;
+            var base = kw*4.75;
+            var sub = base*0.10;
+            var util = base*0.03;
+            var total = base + sub + util;
+            var late = 
+            out = 
+                "&ensp; C O M P S C I Electric <br/>" +
+                "------------------------------------------------<br/>" +
+                "KiloWatts Used &emsp; &emsp; " + kw +
+                "------------------------------------------------<br/> <br/>" +
+                "Base Rate &emsp; &emsp; $ " + base +
+                "Subcharge &emsp; &emsp; $  " + sub +
+                "City Tax &emsp; &emsp; $  " + util + "<br/> <br/>" +
+                "&emsp; &emsp; &emsp; &emsp; _____" + "<br/> <br/>" 
+                
 
+        }
     </script>
 </body>
 </html>
