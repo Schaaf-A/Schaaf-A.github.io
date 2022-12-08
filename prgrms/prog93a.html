@@ -11,29 +11,29 @@
     <input type="number" id="kw" name="kw" placeholder="0">
     <br>
     <button onclick="print()">Print</button>
-    <br><br>
+    <br> <br>
     <p id="out"></p>
     
     <script>
         function print(){
             var kw = Number(document.getElementById("kw").value);
-            var out = document.getElementById("out").innerHTML;
-            var base = kw*4.75;
-            var sub = base*0.10;
+
+            var base = (kw*0.0475);
+            var sub = (base*0.10);
             var util = base*0.03;
-            var total = base + sub + util;
+            var total = Number(base) + Number(sub) + Number(util);
             var late = total * 1.04;
-            out = 
-                "&ensp; C O M P S C I Electric <br/>" +
+            document.getElementById("out").innerHTML = 
+                "&emsp; C O M P S C I &ensp; Electric <br/>" +
                 "------------------------------------------------<br/>" +
-                "KiloWatts Used &emsp; &emsp; " + kw +
+                "KiloWatts Used &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; " + kw + "<br/>" +
                 "------------------------------------------------<br/> <br/>" +
-                "Base Rate &emsp; &emsp; $ " + base +
-                "Subcharge &emsp; &emsp; $  " + sub +
-                "City Tax &emsp; &emsp; $  " + util + "<br/> <br/>" +
-                "&emsp; &emsp; &emsp; &emsp; _____" + "<br/> <br/>" +
-                "Total &emsp; &emsp;" + total + "<br/> <br/>" +
-                "Total after May 20 &emsp; &emsp;" + late;
+                "Base Rate &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $ " + base.toFixed(2) + "<br/>" +
+                "Subcharge &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $  " + sub.toFixed(2) + "<br/>" +
+                "City Tax &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &ensp; $  " + util.toFixed(2) + "<br/>" +
+                "&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &ensp; _____" + "<br/> <br/>" +
+                "Total &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &ensp; $ " + total.toFixed(2) + "<br/> <br/>" +
+                "Total after May 20 &emsp; &emsp; &emsp; &ensp; &ensp; $ " + late.toFixed(2);
                 
 
         }
