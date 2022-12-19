@@ -1,7 +1,7 @@
-*{
-    font-family: arial;
+@font-face {
+    font-family: 'Unbuntu';
+    src: url(font/Ubuntu-Regular.ttf);
 }
-
-h1, h2{
-    color: rgb(233, 68, 123);
+h1{
+    font-family: 'Ubuntu';
 }
