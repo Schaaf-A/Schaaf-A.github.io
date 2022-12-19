@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Selector Notes</title>
+</head>
+<body>
+    <ul>
+        <li>Test 1</li>
+        <li>Test 2</li>
+        <li>Test 3</li>
+    </ul>
+
+    <p id="wow">Some text here</p>
+
+    <h1 class="test">Head 1</h1>
+    <h2 class="test">Head 2</h2>
+    <h3 class="test">Head 3</h3>
+
+    <script>
+        //query selector grabs first item that matches css selector
+        var h1 = document.querySelector(".test");
+        h1.innerHTML = "Updated Heading";
+
+        var p = document.querySelector("#wow");
+        p.textContent = "Paragraph";
+
+        var hOneAll = document.querySelectorAll(".test");
+        for (var lcv = 0; lcv < hOneAll.length; lcv++){
+            hOneAll[lcv].style.backgroundColor = "green";
+        }
+
+        var hOneAllCl = document.getElementsByClassName("test");
+        for (var lcv = 0; lcv < hOneAllCl.length; lcv++){
+            hOneAllCl[lcv].style.color = "white";
+        }
+
+        var lis = document.querySelectorAll("li");
+        for (var lcv = 0; lcv < hOneAllCl.length; lcv++){
+            lis[lcv].style.color = "blue";
+        } 
+    </script>
+</body>
+</html>
