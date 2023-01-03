@@ -126,4 +126,19 @@ body, html { overflow: hidden; }
 
 .leftalign{
     float: left;
+    margin: 40px;
+    margin-left: 60px;
+}
+.rightalign{
+    float: right;
+    margin: 40px;
+    margin-right: 60px;
+}
+
+#prg1{
+    margin-left: 100px;
+}
+
+#prg2{
+    margin-right: 100px;
 }
