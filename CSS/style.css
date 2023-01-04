@@ -148,8 +148,9 @@ body, html { overflow: hidden; }
 }
 
 /*Form*/
-form{
-
+#form form{
+    padding: 5px;
+    backdrop-filter: blur(2px);
 }
 
 #form{
@@ -158,12 +159,25 @@ form{
     margin-left: 25%;
     margin-right: 25%;
     height: 60vh;
+    
 }
 
 form input{
     align-items: center;
     justify-content: center;
+    font-size: 15px;
+    margin: 0px 20px;
 }
+
+form label{
+    font-size: 15px;
+    margin: 0px 20px;
+}
+
+.rqd{
+    color: rgb(276,10,10);
+    font-weight:normal;}
+
 .bg2::after{
     background-image: url("../images/orange_branches.jpg");
 }

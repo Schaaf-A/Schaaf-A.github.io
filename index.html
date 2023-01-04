@@ -46,8 +46,42 @@
             </div>
             <br>
             <section id="form" class="section parallax bg2">
-                <h2>Contact Me</h2>
-                
+                <form action="#" method="post" onsubmit="alert('Not implemented yet')">
+                    <label for="myname">Name: <span class="rqd">*</span> </label>
+                    <br>
+                    <input type="text" name="My Name"  id="myname" required/>
+                    <br> <br>
+        
+                    <label for="subject">Subject: <span class="rqd">*</span></label>
+                    <br>
+                    <input type="text" name="subject" id=subject required/>
+                    <br> <br>
+        
+                    <label for="subject"><span class="rqd">*</span></label> <br>
+                    <textarea  name=tbody id=tbody required placeholder="Enter Message"></textarea>
+                    <br> <br>
+        
+                    <label for=attatch> Attatchments: </label>
+                    <br>
+                    <input type="file" name="attatch" style="background-color:white"/><br> <br>
+        
+                    <label for="priority">Priority<span class="rqd">*</span></label></label> <br>
+                    <select name="priority" required>
+                        <option disabled select value>-Select an Option-</option>
+                        <option value="low">Low</option>
+                        <option value="high">Medium</option>
+                        <option value="med">High</option>
+                        <option value="crit">Critical</option>
+                    </select>
+                    <Br><br>
+        
+                    <label for="radio" required>Would you like a follow-up email?<span class="rqd">*</span></label><br>
+                    <input type="radio" name="flwup" value="yes">yes
+                    <input type="radio" name="flwup" value="no">no
+                    <br><br>
+        
+                    <input type="submit" value="submit" id="sbutton"/>
+                </form>
                 </form>
             </div>
         </div>
