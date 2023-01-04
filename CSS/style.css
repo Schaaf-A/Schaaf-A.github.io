@@ -142,3 +142,28 @@ body, html { overflow: hidden; }
 #prg2{
     margin-right: 100px;
 }
+
+.width100{
+    width: 100%;
+}
+
+/*Form*/
+form{
+
+}
+
+#form{
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 60vh;
+}
+
+form input{
+    align-items: center;
+    justify-content: center;
+}
+.bg2::after{
+    background-image: url("../images/orange_branches.jpg");
+}
