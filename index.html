@@ -9,9 +9,9 @@
 </head>
 <body>
     <div id="navbar">
-        <a href="Schaaf-A.github.io/index.html">Home</a>
+        <a href="Schaaf-A.github.io/index.html">Home</a> <!--make sure links work-->
         <div class="dropdown">
-            <a href="Schaaf-A.github.io/about.html" class="dropbtn">About</a>
+            <a href="https://schaaf-a.github.io/about.html" class="dropbtn">About</a>
             <div class="dropdown-content">
                 <a href="#">Link 1</a>
                 <hr>
@@ -20,7 +20,7 @@
                 <a href="#">Link 3</a>
             </div>
         </div>
-        <a href="Schaaf-A.github.io/projects.html">Portfolio</a>
+        <a href="https://schaaf-a.github.io/projects.html">Portfolio</a>
     </div>
 
 
@@ -47,6 +47,8 @@
             <br>
             <section id="form" class="section parallax bg2">
                 <form action="#" method="post" onsubmit="alert('Not implemented yet')">
+                    <label for="" id="cntct">Contact Me!</label>
+                    <br>
                     <label for="myname">Name: <span class="rqd">*</span> </label>
                     <br>
                     <input type="text" name="My Name"  id="myname" required/>
@@ -57,7 +59,7 @@
                     <input type="text" name="subject" id=subject required/>
                     <br> <br>
         
-                    <label for="subject"><span class="rqd">*</span></label> <br>
+                    <label for="subject">Message:<span class="rqd">*</span></label> <br>
                     <textarea  name=tbody id=tbody required placeholder="Enter Message"></textarea>
                     <br> <br>
         
@@ -76,8 +78,11 @@
                     <Br><br>
         
                     <label for="radio" required>Would you like a follow-up email?<span class="rqd">*</span></label><br>
-                    <input type="radio" name="flwup" value="yes">yes
-                    <input type="radio" name="flwup" value="no">no
+                    <span id="radio">
+                        <input type="radio" name="flwup" value="yes">yes
+                        <input type="radio" name="flwup" value="no">no
+                    </span>
+        
                     <br><br>
         
                     <input type="submit" value="submit" id="sbutton"/>
