@@ -109,8 +109,6 @@ body{
     width: 1000px;
 }
 
-.static { background: rgb(43, 43, 43); }
-
 .bg1::after{
     background-image: url("../images/orange_branches.jpg");
 }
