@@ -20,6 +20,7 @@ body{
     box-shadow: 0px -5px 20px 20px rgba(0, 0, 0, 0.747);
     text-align: right;
     width: 100%;
+    z-index: 1000;
 }
 #navbar a{
     color: #e67710;
@@ -70,7 +71,7 @@ body{
 
 
 
-/*Parallax*/
+/*PARALLAX*/
 
 .wrapper {
     height: 100vh; /* 100% of the viewport height */
@@ -155,7 +156,7 @@ body, html { overflow: hidden; }
 
 
 
-/*Form*/
+/*FORM*/
 
 #form form{
     padding: 5px;
@@ -164,6 +165,8 @@ body, html { overflow: hidden; }
     align-items: center;
     text-align: center;
     width: 50%;
+    height: fit-content;
+    margin: 30px;
 }
 
 #form{
@@ -171,10 +174,17 @@ body, html { overflow: hidden; }
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    height: 60vh;
+    height: fit-content;
     margin-bottom: 200px;
     padding: 10px;
     align-items: center;
+}
+
+input, textarea, select{
+    background-color: rgb(63, 63, 63);
+    border-width: 2px;
+    border-color: rgb(44, 44, 44);
+    color: rgb(241, 241, 241);
 }
 
 form input, textarea, select{
@@ -189,10 +199,12 @@ form label{
 }
 
 #cntct{
-    font-size: 22px;
+    font-size: 25px;
     margin: 10px;
 }
-
+#mynamelbl{
+    margin-top: 100px;
+}
 #myname{
     width: 60%;
 }
@@ -203,6 +215,7 @@ form label{
 
 #tbody{
     width: 80%;
+    max-width: 80%;
 }
 
 #sbutton{
@@ -211,13 +224,15 @@ form label{
     align-items: center;
 }
 
-input[type="radio"]{
+input[type='radio']{
     text-align: center;
     align-items: center;
     margin: 10px;
+    color: rgb(63, 63, 63);
+    accent-color: #363636;
 }
 #radio{
-
+    font-size: 18px;
 }
 
 .rqd{
@@ -226,4 +241,18 @@ input[type="radio"]{
 
 .bg2::after{
     background-image: url("../images/orange_branches.jpg");
+}
+
+
+
+/*TABLES*/
+
+table{
+    width: 90%;
+    align-items: center;
+}
+
+td{
+    align-items: center;
+    width: 50%;
 }
