@@ -98,6 +98,8 @@ body{
     backdrop-filter: blur(3px);
     padding: 10px 20px;
     margin-left: 5%;
+    background-color: rgba(255, 255, 255, 0.075);
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.075);
 }
 
 #text h1 { /*filter blur background*/
@@ -155,6 +157,10 @@ body, html { overflow: hidden; }
 
 
 /*FORM*/
+
+@media screen and (max-width: 450px) {
+    /*form width = bigger*/
+  }
 
 #form form{
     padding: 5px;
@@ -220,6 +226,7 @@ form label{
     font-weight: bold;
     text-align: center;
     align-items: center;
+    padding: 5pxpx;
 }
 
 input[type='radio']{
