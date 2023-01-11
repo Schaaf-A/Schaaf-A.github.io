@@ -11,27 +11,29 @@ body{
     background-color: rgb(43, 43, 43);
 }
 
+/*SCROLLBAR*/
+
         /* Designing for scroll-bar */
-        ::-webkit-scrollbar {
-            width: 6px;
-        }
+::-webkit-scrollbar {
+width: 6px;
+}
      
         /* Track */
-        ::-webkit-scrollbar-track {
-            background: rgb(88, 88, 88);
-            border-radius: 5px;
-        }
+::-webkit-scrollbar-track {
+    background: rgb(88, 88, 88);
+    border-radius: 0px;
+}
      
         /* Handle */
-        ::-webkit-scrollbar-thumb {
-            background: rgb(160, 89, 31);
-            border-radius: 5px;
-        }
+::-webkit-scrollbar-thumb {
+    background: rgb(160, 89, 31);
+    border-radius: 5px;
+}
      
         /* Handle on hover */
-        ::-webkit-scrollbar-thumb:hover {
-            background: rgb(221, 112, 23);
-        }
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(221, 112, 23);
+}
 
 /*Navbar*/
 
@@ -274,7 +276,16 @@ form label{
     font-weight: bold;
     text-align: center;
     align-items: center;
-    padding: 5pxpx;
+    padding: 5px;
+}
+
+#sbutton:hover{
+    background-color: rgb(88, 88, 88);
+}
+
+#sbutton:active{
+    background-color: #96551d;
+    border: 5px #36200e;
 }
 
 input[type='radio']{
@@ -305,10 +316,21 @@ input[type='radio']{
         width: 80%;
         margin-left: 10%;
     }
-  }
+}
+
 
 
 /*TABLES*/
+
+h2{
+    font-size: 5vw;
+    color: #242424;
+    background-color: #d48a36;
+    padding: 5px 10px;
+    padding-right: 12%;
+    width: fit-content;
+    text-shadow: 0.25vw 0.25vw 0px rgb(163, 110, 41);
+}
 
 table{
     width: 90%;
