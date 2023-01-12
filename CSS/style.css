@@ -35,11 +35,13 @@ width: 6px;
     background: rgb(221, 112, 23);
 }
 
-/*Navbar*/
+
+
+/*NAVBAR*/
 
 #navbar{
     padding: 10px;
-    padding-right: 20px;
+    padding-right: 7vw;
     background-color: rgb(51, 51, 51);
     box-shadow: 0px -5px 20px 10px rgba(0, 0, 0, 0.747);
     text-align: right;
@@ -77,6 +79,7 @@ width: 6px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    margin-right: 20px;
   }
   
   /* Links inside the dropdown */
@@ -101,7 +104,7 @@ width: 6px;
     }
     #navbar a{
         font-size: 18px;
-        margin: 0 10%;
+        margin: 0 30px;
     }
 }
 
@@ -132,7 +135,7 @@ width: 6px;
     backdrop-filter: blur(3px);  /*filter blur background*/
     padding: 10px 20px;
     width: 100vw;
-    color: rgb(32, 32, 32);
+    color: rgb(34, 34, 34);
     background-color: rgba(49, 49, 49, 0.075);
     /*color: rgb(32, 32, 32);
     background-color: rgba(255, 255, 255, 0.075);
