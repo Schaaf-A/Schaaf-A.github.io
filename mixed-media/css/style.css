@@ -30,7 +30,9 @@ th{
     border-radius: 14px;}
 
 td{
-    background-color:rgba(120,150,110,0.8)}
+    background-color:rgba(120,150,110,0.8);
+    max-width: 50vh;
+}
 a{
     color:rgb(160,200,200)}
 

@@ -326,7 +326,7 @@ input[type='radio']{
 /*TABLES*/
 
 h2{
-    font-size: 5vw;
+    font-size: 4.5vw;
     color: #242424;
     background-color: #d48a36;
     padding: 5px 10px;
@@ -342,5 +342,10 @@ table{
 
 td{
     align-items: center;
-    width: 50%;
+    width: 50vh;
+    max-width: 50vh;
+}
+
+img{
+    max-width: 42vw;
 }
