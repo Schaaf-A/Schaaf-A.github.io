@@ -5,6 +5,7 @@
 *{
     font-family: Ubuntu;
     /*Copperplate, Copperplate Gothic Light, fantasy;*/
+    overflow-y: auto;
     
 }
 body{
