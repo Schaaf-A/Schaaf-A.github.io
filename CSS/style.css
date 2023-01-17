@@ -14,7 +14,7 @@ body{
     background-color: rgb(43, 43, 43);
 }
 
-/*SCROLLBAR*/
+                            /*SCROLLBAR*/
 
         /* Designing for scroll-bar */
 ::-webkit-scrollbar {
@@ -40,7 +40,7 @@ width: 6px;
 
 
 
-/*NAVBAR*/
+                            /*NAVBAR*/
 
 #navbar{
     padding: 10px;
@@ -50,7 +50,9 @@ width: 6px;
     text-align: right;
     width: 100%;
     z-index: 1000;
-    overflow-y: hidden;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
 }
 #navbar a{
     color: #e67710;
@@ -116,7 +118,7 @@ width: 6px;
 
 
 
-/*PARALLAX*/
+                            /*PARALLAX*/
 
 .wrapper {
     height: 100vh; /* 100% of the viewport height */
@@ -136,7 +138,7 @@ width: 6px;
 }
 #text{
     position: relative;
-    top: -50px;
+    top: 2vh;
     left: -0px;
     backdrop-filter: blur(3px);  /*filter blur background*/
     padding: 10px 20px;
@@ -179,15 +181,40 @@ width: 6px;
 
 * { margin: 0; padding: 0; }
 
+
+
+
+                            /*PARAGRAPHS*/
+
+
+.paragraph1{
+    width: 50vw;
+    font-size: 3vh;
+    line-height: 4.5vh;
+    background-color: rgb(43, 43, 43);
+    margin-top: 10vh;
+}
+
+.paragraph2{
+    width: 50vw;
+    font-size: 3vh;
+    line-height: 4vh;
+    background-color: rgb(43, 43, 43);
+    box-shadow: 0px 0px 5vw 2vw rgb(43, 43, 43);
+    overflow: hidden;
+}
+
 .leftalign{
     float: left;
     margin: 40px;
     margin-left: 60px;
+    left: -10vw;
 }
 .rightalign{
     float: right;
     margin: 40px;
     margin-right: 60px;
+    left: 10vw;
 }
 
 #prg1{
@@ -217,14 +244,25 @@ width: 6px;
     #text h3 {
         display: none;
     }
+
+    .group{
+        display: block;
+    }
+    .paragraph1{
+        width: 90vw
+    }
+
+    .mobilehide{
+        display: none;
+    }
 }
 
 
 
-/*FORM*/
+                            /*FORM*/
 
 #form{
-    margin-top: 100px;
+    margin-top: 70vh;
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
@@ -331,7 +369,7 @@ input[type='radio']{
 
 
 
-/*TABLES*/
+                            /*TABLES*/
 
 h2{
     font-size: 4.5vw;
@@ -376,3 +414,6 @@ img{
         font-size: 2.5vw;
     }
 }
+
+
+
