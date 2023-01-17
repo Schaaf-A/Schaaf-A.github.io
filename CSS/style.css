@@ -104,10 +104,11 @@ width: 6px;
     #navbar{
        text-align: center;
        padding-right: 0px;
+
     }
     #navbar a{
         font-size: 18px;
-        margin: 0 30px;
+        margin: 0 3vw;
     }
 }
 
